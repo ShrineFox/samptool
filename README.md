@@ -3,7 +3,13 @@ A tool for repacking TTYD (GC)'s MusyX ".samp" sound archive format.
 Originally created by [tge-was-taken](https://github.com/tge-was-taken) in 2016.
 
 # Usage
-This is a commandline program, so you'd use the command prompt.  
+Make sure you have the [.NET 8 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.20-windows-x64-installer) installed.
+### GUI
+1. Run samptoolGUI.exe (get it from [Releases here](https://github.com/ShrineFox/samptool/releases))
+2. Drag the .samp file onto the exe
+3. When you're ready to repack, drag the Out folder onto the .exe (make sure it's still in the same folder as the original .samp and .sdir)
+### Commandline
+Open the command prompt and enter the following comands in the same folder as samptool.exe.
 ```
 Paper Mario Sample editor v0.1
 Created by TGE, partially based on the script created by Nisto.
