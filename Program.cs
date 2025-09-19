@@ -4,13 +4,13 @@ using System.IO;
 
 namespace samptool
 {
-    class Program
+    public class Program
     {
         static Assembly Assembly = Assembly.GetExecutingAssembly();
         static string Name = Assembly.GetName().Name;
         static string NameWithExtension = Name + ".exe";
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // check if req. args can be present
             if (args.Length < 3)

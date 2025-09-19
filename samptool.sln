@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samptool", "samptool.csproj", "{2EB30665-681A-43B9-9770-8758DDADA3D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampToolGUI", "..\SampToolGUI\SampToolGUI.csproj", "{68771080-78C0-43A6-92FF-DEB53D5164FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{2EB30665-681A-43B9-9770-8758DDADA3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EB30665-681A-43B9-9770-8758DDADA3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EB30665-681A-43B9-9770-8758DDADA3D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68771080-78C0-43A6-92FF-DEB53D5164FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68771080-78C0-43A6-92FF-DEB53D5164FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68771080-78C0-43A6-92FF-DEB53D5164FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68771080-78C0-43A6-92FF-DEB53D5164FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E559A60-30EB-459A-ABA1-3C24CE31CA3B}
 	EndGlobalSection
 EndGlobal
